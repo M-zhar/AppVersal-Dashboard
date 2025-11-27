@@ -1,3 +1,5 @@
+#Deployed Link - https://stellular-snickerdoodle-aaed35.netlify.app/
+
 # Team Pulse Dashboard
 
 A fully responsive productivity dashboard built with **React (Vite)**, **Redux Toolkit**,  
@@ -52,7 +54,6 @@ All slices persist automatically using `localStorage`.
 
 ---
 
-## 🗂 Folder Structure
 
 
 
