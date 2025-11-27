@@ -9,9 +9,9 @@ This project provides **role-based views** (Team Lead & Team Member),
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👤 Role-Based System
+###  Role-Based System
 - **Team Lead View**
   - View list of all team members
   - Monitor their status (Working / Meeting / Break / Offline)
@@ -26,7 +26,7 @@ This project provides **role-based views** (Team Lead & Team Member),
 
 ---
 
-## 🎨 Dark / Light Theme
+##  Dark / Light Theme
 - Smooth toggle UI
 - Fully Tailwind-powered (`darkMode: "class"`)
 - Auto-applying theme on page load
@@ -34,7 +34,7 @@ This project provides **role-based views** (Team Lead & Team Member),
 
 ---
 
-## 📊 Charts (Recharts)
+##  Charts (Recharts)
 ### Included:
 - **Pie Chart** → Status Distribution
 - **Bar Chart** → Active Tasks Per Member
@@ -43,7 +43,7 @@ Both charts auto-update based on Redux state.
 
 ---
 
-## 🧠 State Management (Redux Toolkit)
+## State Management (Redux Toolkit)
 - `membersSlice` → status + tasks  
 - `roleSlice` → current role + active user  
 - `themeSlice` → dark/light theme (persisted)
@@ -53,4 +53,38 @@ All slices persist automatically using `localStorage`.
 ---
 
 ## 🗂 Folder Structure
+
+team-pulse/
+│
+├── public/
+│
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── ThemeToggle.jsx
+│ │ ├── MemberCard.jsx
+│ │ ├── TaskForm.jsx
+│ │ ├── TaskList.jsx
+│ │ ├── StatusSelector.jsx
+│ │ └── Charts.jsx
+│ │
+│ ├── pages/
+│ │ └── Dashboard.jsx
+│ │
+│ ├── redux/
+│ │ ├── store.js
+│ │ └── slices/
+│ │ ├── membersSlice.js
+│ │ ├── roleSlice.js
+│ │ └── themeSlice.js
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── README.md
 
