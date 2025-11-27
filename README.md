@@ -55,37 +55,5 @@ All slices persist automatically using `localStorage`.
 ## 🗂 Folder Structure
 
 
-team-pulse/
-│
-├── public/
-│
-├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── ThemeToggle.jsx
-│ │ ├── MemberCard.jsx
-│ │ ├── TaskForm.jsx
-│ │ ├── TaskList.jsx
-│ │ ├── StatusSelector.jsx
-│ │ └── Charts.jsx
-│ │
-│ ├── pages/
-│ │ └── Dashboard.jsx
-│ │
-│ ├── redux/
-│ │ ├── store.js
-│ │ └── slices/
-│ │ ├── membersSlice.js
-│ │ ├── roleSlice.js
-│ │ └── themeSlice.js
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-│
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-└── README.md
+
 
