@@ -54,6 +54,7 @@ All slices persist automatically using `localStorage`.
 
 ## 🗂 Folder Structure
 
+
 team-pulse/
 │
 ├── public/
